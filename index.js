@@ -18,9 +18,8 @@ var embed = new Discord.RichEmbed()
 .addField("🚨 Administration", "`tp!ban` `tp!kick`")
 .addField("🎉 Fun", "`tp!ping` `tp!lien` `tp!si` `tp!pdp` `tp!sayembed` `tp!say`")
 .setFooter(`Help demandé par ${message.author.username} ( pour avoir des info sur une commande exemple : tp!help ban )`)
-message.author.send(embed)
-message.reply("Commande help envoyé en mp ;)")
-}
+
+message . répondre (embed)
 })
 
 
